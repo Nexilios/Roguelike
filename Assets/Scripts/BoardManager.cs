@@ -8,10 +8,7 @@ public class BoardManager : MonoBehaviour
         public bool Passable;
     }
     
-    [SerializeField]
     private CellData[,] m_BoardData;
-    
-    [SerializeField]
     private Tilemap m_Tilemap;
 
     public int Width;
